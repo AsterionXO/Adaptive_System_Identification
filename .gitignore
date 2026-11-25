@@ -1,0 +1,19 @@
+# Result table images (kept locally, not part of the repository)
+results/hardware/tables/
+
+# Office lock and temporary files
+~$*
+*.tmp
+
+# MATLAB autosave and outputs written when running the scripts from simulation/
+*.asv
+simulation/*.mat
+simulation/*.png
+
+# Arduino build output
+firmware/**/build/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
